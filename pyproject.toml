@@ -1,0 +1,21 @@
+[project]
+name = "bigdata-5v-playbook"
+version = "0.1.0"
+description = "Анализ NYC Yellow Taxi по методологии 5V: Volume, Velocity, Variety, Veracity, Value"
+requires-python = ">=3.13,<3.14"  # great-expectations пока не поддерживает 3.14
+dependencies = [
+    "great-expectations>=1.23.2",
+    "kagglehub>=1.0.2",
+    "matplotlib>=3.11.2",
+    "pandas>=3.0.6",
+    "polars>=2.0.0",
+    "pyarrow>=25.0.1",
+    "seaborn>=0.13.2",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=7.4.0",
+    "nbclient>=0.11.0",
+    "nbconvert>=7.17.1",
+]
