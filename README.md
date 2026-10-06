@@ -2,7 +2,6 @@
 
 > Практическое руководство для анализа Big Data-сценариев по методологии 5V, выбора технологий и оценки бизнес-ценности.
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Python 3.13](https://img.shields.io/badge/python-3.13-blue.svg)](https://www.python.org/)
 [![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange.svg)](https://jupyter.org/)
 
